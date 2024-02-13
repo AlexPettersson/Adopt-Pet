@@ -1,5 +1,5 @@
-README för Adoptera-ett-husdjur
-Projektbeskrivning
+README för Adoptera-ett-husdjur |
+Projektbeskrivning:
 Detta är ett webbserverprogrammeringsprojekt som använder Flask, ett lättviktigt webb ramverk för Python. Flask är utmärkt för små till medelstora webbapplikationer och inkluderar alla nödvändiga verktyg och hjälpmedel för att bygga en robust webbapplikation.
 
 Teknologier
