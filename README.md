@@ -5,8 +5,9 @@ Detta är ett webbserverprogrammeringsprojekt som använder Flask, ett lättvikt
 Teknologier
 Projektet är skapat med:
 
-Python version: 3.13
-Flask version: 3.02
+Python version: 3.13 🐍
+Flask version: 3.02 
+
 Installation och Setup
 För att köra detta projekt, installera det lokalt genom att följa dessa steg:
 
@@ -17,11 +18,11 @@ Starta servern med python app.py
 Funktioner
 Listan över funktioner som ingår i projektet:
 
-- Automatiskt uppdaterande listor på olika djur.
-- Information för olika djur.
-- Text som består av olika förekomande variabler som gör att flera delar av koden ändras om man ändrar en sak för att underlätta.
+- Automatiskt uppdaterande listor på olika djur. 📄
+- Information för olika djur. 🐶
+- Text som består av olika förekomande variabler som gör att flera delar av koden ändras om man ändrar en sak för att underlätta. 💻
 
-Status: Slutfört.
+Status: Slutfört. ✔
 
 Kontakt
-Skapad av Alex Pettersson & Martin Rockström - gärna kontakta oss! alex.pettersson@elev.ga.ntig.se eller martin.rockstrom@elev.ga.ntig.se
+Skapad av Alex Pettersson & Martin Rockström - gärna kontakta oss! alex.pettersson@elev.ga.ntig.se eller martin.rockstrom@elev.ga.ntig.se 📞
