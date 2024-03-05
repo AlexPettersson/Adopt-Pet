@@ -38,12 +38,12 @@ pets = {
         'name':
         'Easter',
         'age':
-        83,
+        4,
         'breed':
-        'Large one',
+        'Mini Rex',
         'description':
-        'Easter is a sweet, gentle rabbit who likes spending most of the day sleeping. when they hit the neigh',
+        'Easter is a sweet, gentle rabbit who likes spending most of the day sleeping.',
         'url':
-        'https://i.dailymail.co.uk/1s/2021/01/26/17/38504554-0-image-m-11_1611680480321.jpg'
+        'https://content.codecademy.com/programs/flask/introduction-to-flask/rabbit-easter.jpeg'
     }]
 }

@@ -1,5 +1,9 @@
-from flask import Flask
+"""
+This file contains the main application logic for the Adopt a Pet application.
+It defines the routes and handlers for displaying the homepage, animal lists, and pet details.
+"""
 
+from flask import Flask
 from helper import pets
 
 app = Flask(__name__)
@@ -7,6 +11,11 @@ app = Flask(__name__)
 # Main route
 @app.route('/')
 def index():
+  """Displays the homepage of the Adopt a Pet application.
+
+  Returns:
+    str: The HTML content of the homepage.
+  """  
   return '''
   <h1>Adopt a Pet!</h1>
   <p>Browse through the links below to find your new furry friend:</p>
@@ -15,7 +24,7 @@ def index():
       <a href="/animals/dogs">Dogs</a>
     </li>
     <li>
-    <a href="/animals/cats">Cats</a>
+      <a href="/animals/cats">Cats</a>
     </li>
     <li>
       <a href="/animals/rabbits">Rabbits</a>
@@ -26,6 +35,14 @@ def index():
 # Animal-list route
 @app.route('/animals/<pet_type>')
 def animals(pet_type):
+  """Displays a list of animals of the specified type.
+
+  Args:
+    pet_type (str): The type of animal.
+
+  Returns:
+    str: The HTML content of the animal list.
+  """
   html = f"<h1>List of {pet_type}</h1>"
   html += "<ul>"
   number = -1
@@ -39,6 +56,15 @@ def animals(pet_type):
 # Pet-detail route
 @app.route('/animals/<string:pet_type>/<int:pet_id>')
 def pet(pet_type, pet_id):
+  """Displays the details of a specific pet.
+
+  Args:
+    pet_type (str): The type of animal.
+    pet_id (int): The ID of the pet.
+
+  Returns:
+    str: The HTML content of the pet details.
+  """
   pet = pets[pet_type][pet_id]
   print(pet)
   pet_id += 1
